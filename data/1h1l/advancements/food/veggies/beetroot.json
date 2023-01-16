@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:beetroot"
         },
-        "title": "Beetroot",
-        "description": "Beetroot",
+        "title": "Earthly Eats",
+        "description": "Eat your first beetroot",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

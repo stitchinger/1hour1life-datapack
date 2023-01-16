@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:salmon"
         },
-        "title": "salmon",
-        "description": "salmon",
+        "title": "Succulent Seafood",
+        "description": "Eat your first salmon",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

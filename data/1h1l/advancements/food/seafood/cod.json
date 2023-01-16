@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:cod"
         },
-        "title": "cod",
-        "description": "cod",
+        "title": "Fishy Feast",
+        "description": "Eat your first cod",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

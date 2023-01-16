@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:poisonous_potato"
         },
-        "title": "Poisonous Potato",
-        "description": "Poisonous Potato",
+        "title": "Toxic Tater",
+        "description": "Eat your first poisonous potato",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

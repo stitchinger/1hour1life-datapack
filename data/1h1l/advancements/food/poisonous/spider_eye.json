@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:spider_eye"
         },
-        "title": "salmspider_eyeon",
-        "description": "spider_eye",
+        "title": "Creepy Cuisine",
+        "description": "Eat your first spider eye",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

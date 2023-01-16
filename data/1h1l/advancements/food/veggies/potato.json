@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:potato"
         },
-        "title": "Potato",
-        "description": "Potato",
+        "title": "Raw-some Potato",
+        "description": "Eat your first potato",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

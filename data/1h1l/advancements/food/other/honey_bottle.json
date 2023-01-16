@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:honey_bottle"
         },
-        "title": "honey_bottle",
-        "description": "honey_bottle",
+        "title": "Honeyed Delight",
+        "description": "Drink your first bottle of honey",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:pufferfish"
         },
-        "title": "pufferfish",
-        "description": "pufferfish",
+        "title": "Inflated Flavor",
+        "description": "Eat your first pufferfish",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

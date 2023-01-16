@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:carrot"
         },
-        "title": "Carrot",
-        "description": "Carrot",
+        "title": "Root Rebellion",
+        "description": "Eat your first carrot",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:baked_potato"
         },
-        "title": "Baked Potato",
-        "description": "Baked Potato",
+        "title": "Potato Paradiso",
+        "description": "Eat your first baked potato",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

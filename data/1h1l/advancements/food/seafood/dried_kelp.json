@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:dried_kelp"
         },
-        "title": "dried_kelp",
-        "description": "dried_kelp",
+        "title": "Seaweed Snacks",
+        "description": "Eat your first dried kelp",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
