@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tropical_fish"
+        },
+        "title": "Tropical Treats",
+        "description": "Eat your first tropical fish",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "1h1l:food/seafood/salmon_cooked",
+    "criteria": {
+        "consume": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tropical_fish"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "consume"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

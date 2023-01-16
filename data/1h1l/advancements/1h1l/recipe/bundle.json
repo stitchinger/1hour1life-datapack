@@ -1,0 +1,48 @@
+{
+    "parent": "1h1l:1h1l/root",
+    "criteria": {
+        "has_leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:leather"
+                    ]
+                }]
+            }
+        },
+        "has_rabbit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:rabbit_hide"
+                    ]
+                }]
+            }
+        },
+        "has_string": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:string"
+                    ]
+                }]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_leather",
+            "has_rabbit",
+            "has_string"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "1h1l:bundle_leather",
+            "1h1l:bundle_rabbit"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": "Beetroot",
+        "description": "Beetroot",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "1h1l:food/root",
+    "criteria": {
+        "consume": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:beetroot"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "consume"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

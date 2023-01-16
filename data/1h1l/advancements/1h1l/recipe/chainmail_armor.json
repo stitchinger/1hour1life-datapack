@@ -1,0 +1,39 @@
+{
+    "parent": "1h1l:1h1l/root",
+    "criteria": {
+        "has_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:iron_ingot"
+                    ]
+                }]
+            }
+        },
+        "has_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:iron_nugget"
+                    ]
+                }]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_ingot",
+            "has_nugget"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "1h1l:chainmail_helmet",
+            "1h1l:chainmail_chestplate",
+            "1h1l:chainmail_leggings",
+            "1h1l:chainmail_boots"
+        ]
+    }
+}

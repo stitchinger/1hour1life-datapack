@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "title": "Potato",
+        "description": "Potato",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "1h1l:food/veggies/beetroot",
+    "criteria": {
+        "potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potato"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "potato"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}
