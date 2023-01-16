@@ -3,9 +3,9 @@
         "icon": {
             "item": "minecraft:apple"
         },
-        "title": "A balanced diet",
+        "title": "A Balanced Diet",
         "description": "dajfdlkajf",
-        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "background": "minecraft:textures/block/moss_block.png",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

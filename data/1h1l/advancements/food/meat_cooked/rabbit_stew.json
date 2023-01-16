@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_stew"
+        },
+        "title": "Bunny's Stew-pendous",
+        "description": "Eat your first rabbit stew",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "1h1l:food/meat_cooked/rabbit_cooked",
+    "criteria": {
+        "consume": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:rabbit_stew"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "consume"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}
