@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 10,
-    "description": "Custom Advancements for 1Hour 1Life"
-  }
+    "pack": {
+        "pack_format": 10,
+        "description": "1Hour 1Life Advancements, Foodtracking and Recipes"
+    }
 }
