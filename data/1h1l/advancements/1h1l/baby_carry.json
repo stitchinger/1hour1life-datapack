@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick"
+        },
+        "title": "Carry your child",
+        "description": "Carry your child",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "1h1l:1h1l/baby_feed"
+}

@@ -8,7 +8,7 @@
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": false
+        "hidden": true
     },
     "parent": "1h1l:food/fruits/apple_enchanted",
     "criteria": {

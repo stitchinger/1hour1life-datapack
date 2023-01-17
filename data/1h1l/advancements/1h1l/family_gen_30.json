@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_banner"
+        },
+        "title": "The 30th generation",
+        "description": "Be in a family with 30 generations",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "1h1l:1h1l/family_gen_20"
+}
