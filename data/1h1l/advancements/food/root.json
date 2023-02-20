@@ -4,7 +4,7 @@
             "item": "minecraft:apple"
         },
         "title": "A Balanced Diet",
-        "description": "dajfdlkajf",
+        "description": "Eat new kinds of food and get additional hearts",
         "background": "minecraft:textures/block/moss_block.png",
         "frame": "task",
         "show_toast": false,

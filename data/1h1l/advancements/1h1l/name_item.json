@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:beacon"
+            "item": "minecraft:name_tag"
         },
         "title": "Family Heirloom",
         "description": "Give your equipment a unique name",

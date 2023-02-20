@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:beacon"
+            "item": "minecraft:name_tag"
         },
         "title": "Proud Parent",
         "description": "Give your child a unique name",
