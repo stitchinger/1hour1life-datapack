@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "1h1l.food/root",
+    "parent": "1h1l:food/root",
     "criteria": {
         "consume": {
             "trigger": "minecraft:consume_item",
