@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:dimension",
+    "generator": {
+      "type": "minecraft:noise",
+      "seed": 12345,
+      "settings": "minecraft:overworld"
+    },
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "<your_biome_namespace>:<your_biome_name>"
+    },
+    "effects": "minecraft:the_nether",
+    "ambient_light": 0.1,
+    "natural": true,
+    "coordinate_scale": 1.0,
+    "piglin_safe": false,
+    "bed_works": true,
+    "respawn_anchor_works": true,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "ultrawarm": false,
+    "has_raids": true,
+    "logical_height": 256,
+    "infiniburn": "minecraft:infiniburn_overworld",
+    "moon_size": 100.0,
+    "sky_color": "9b30ff",
+    "fog_color": "9b30ff",
+    "water_fog_color": "9b30ff"
+  }
+  
