@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_helmet_armor",
+            "name": "Armor",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_helmet_attack_speed",
+            "name": "Attack Speed",
+            "amount": 0.50,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:player.block_break_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_helmet_break_speed",
+            "name": "Break Speed",
+            "amount": 0.50,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 123
+    }
+  }
+}

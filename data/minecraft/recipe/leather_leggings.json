@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:leather_leggings_armor",
+            "name": "Armor",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:generic.safe_fall_distance",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:leather_leggings_fall_damage",
+            "name": "Fall Damage Reduction",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 158
+    }
+  }
+}

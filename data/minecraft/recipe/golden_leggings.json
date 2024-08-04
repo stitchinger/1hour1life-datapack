@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_leggings",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_leggings_armor",
+            "name": "Armor",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_leggings_attack_speed",
+            "name": "Attack Speed",
+            "amount": 0.50,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:player.block_break_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_leggings_break_speed",
+            "name": "Break Speed",
+            "amount": 0.50,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 158
+    }
+  }
+}

@@ -30,10 +30,10 @@
     ],
     "rewards": {
         "recipes": [
-            "1h1l:chainmail_helmet",
-            "1h1l:chainmail_chestplate",
-            "1h1l:chainmail_leggings",
-            "1h1l:chainmail_boots"
+            "minecraft:chainmail_helmet",
+            "minecraft:chainmail_chestplate",
+            "minecraft:chainmail_leggings",
+            "minecraft:chainmail_boots"
         ]
     }
 }

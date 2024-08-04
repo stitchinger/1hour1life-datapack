@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_boots",
+    "count": 1,
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:leather_boots_armor",
+            "name": "Armor",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:generic.safe_fall_distance",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:leather_boots_fall_damage",
+            "name": "Fall Damage Reduction",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 136
+    }
+  }
+}

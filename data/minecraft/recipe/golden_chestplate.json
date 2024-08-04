@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_boots_armor",
+            "name": "Armor",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_boots_attack_speed",
+            "name": "Attack Speed",
+            "amount": 0.50,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:player.block_break_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:golden_boots_break_speed",
+            "name": "Break Speed",
+            "amount": 0.50,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 168
+    }
+  }
+}

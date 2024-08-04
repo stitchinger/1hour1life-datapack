@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:more_armor",
+            "name": "Armor",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:generic.safe_fall_distance",
+            "uuid": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "id": "lightweight:reduced_falldamage",
+            "name": "Fall Damage Reduction",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:max_damage": 168
+    }
+  }
+}
